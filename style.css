@@ -400,7 +400,7 @@ img{
 }
 .all-icons{
 	position: absolute;
-	top: 5870px;
+	top: 5910px;
 }
 .bg-bottom{
 	
@@ -415,7 +415,7 @@ img{
 }
 .gt{
 	position: absolute;
-	top: 5800px;
+	top: 5820px;
 }
 .our-company{
 	position: absolute;
@@ -424,26 +424,26 @@ img{
  	font-style: normal;
 	font-weight: 500;
 	font-size: 20px;
-
 	color: #ffff;
-	line-height: 30px;
+	line-height: 40px;
 }
 .our-descrip{
 	font-family: 'pappins',sans-serif;
 	font-size: 12px;
 	color: #ffff;
 	gap: 10px;
-	line-height: 25px;
+	line-height: 30px;
 }
 .our-lf{
 	margin-left: 210px;
+
 }
 .go-description{
 	font-family: 'pappins',sans-serif;
 	font-size: 12px;
 	color:#eaeaea;
-	line-height: 20px;
-	margin-top: 5px;
+	line-height: 25px;
+	margin-top: 10px;
 }
 .info{
 	margin-left: 370px;
@@ -454,9 +454,18 @@ img{
 	height: 20px;
 
 }
-.collorado{
-	line-height: 15px ;
+.location{
+	margin-top: 10px;
 }
-
+.collorado{
+	line-height: 25px ;
+}
+footer	{
+	font-size: 20px;
+    font-family: 'pappins',sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-color: #0000;
+}
 
 
