@@ -7,12 +7,14 @@
 }
 .section{
 	min-height: 100vh;
+
 }
+
+
 
 .header-content{
 	display: flex;
 	justify-content: space-between;
-	position: absolute;
 	padding: 30px 0 30px;
 	gap: 265px;
 }
@@ -58,42 +60,99 @@ img{
 .ilustration{
 	border-radius: 20px;
 }
-.left{
-	position: absolute;
-	width: 600px;
-	height: 400px;
-	left: 0;
-	top: 940px;
-}
 .right{
 	position: absolute;
 	width: 600px;
 	height: 400px;
 	right: 0;
 	top: 190px;
+	border-radius:20px 0 0 20px;
 }
+.left{
+	position: absolute;
+	width: 650px;
+	height: 600px;
+	left: 0;
+	margin-top: -200px;
+	border-radius: 0 20px 20px 0;
+}
+
 .two{
-	top: 2300px;
+	position: absolute;
+	margin-top: -18px;
+	width: 600px;
+	height: 400px;
+	right: 0;
+	border-radius:20px 0 0 20px;
 }
 .bottom{
-	top: 3900px;
+	position: absolute;
+	width: 650px;
+	height: 600px;
+	left: 0;
+
 }
 
 /*ilustration*/
 
 
-.section-meta{
+
+
+.scrool{
+	margin-top: 600px;
+
+
+}
+.scrool2{
+	position:absolute;
+	margin-top: 70px;
+	transform: translate(560px);
+
+}
+
+
+
+/*before-after svg*/
+.putih1{
 	position: absolute;
-	top: 260px;
+	right: 0;
+	top: 450px;
+
+
+}
+.kuning{
+	position: absolute;
+	top: 150px;
+}
+.atas::before{
+	content: url(image/atas.jpg);
+	
+}
+.bawah::before{
+	content: url(image/bawah.jpg);
+
+}
+.right::after{
+	content: url(image/putih1.jpg);
+
+}
+
+
+/*before-after svg*/
+
+
+
+
+.section-meta{
 	font-family: 'pappins',sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 64px;
+	padding-top: 170px;
 	line-height: 96px;
 	
 }
 .section-title{
-	position: absolute;
 	top: 360px;
 	font-family: 'Nunito', sans-serif;
 	color: #9999;
@@ -106,8 +165,7 @@ img{
 .button{
 	display: flex;
 	flex-direction: row;
-	position: absolute;
-	top: 470px;
+	padding-top: 20px;
 	gap: 20px;
 }
 .btn-cta{
@@ -139,39 +197,39 @@ img{
 	transition:all .5s ease 0s;
 }
 .learn-btn{
-	position: absolute;
-	top: 1160px;
+	margin-top: 30px;
+
+}
+.testi-btn{
+    margin-top: 30px;
+
 }
 /*button*/
 
 
-.section2{
-	height: 100vh;
+.white-blue{
+	background-color: #f3f3f3;
 }
+
 .section-meta-compelling{
-	position: absolute;
-	top: 1000px;
 	font-family: 'pappins',sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size:40px;
 	line-height: 96px;
+	
 }
 .on-the-other{
-	position: absolute;
-	top: 1080px;
 	font-family: 'Nunito', sans-serif;
 	color: #9999;
 	line-height: 170%;
 	font-size: 13px;
 }
-.absolute-box{
-	position: absolute;
-	top: 1700px;
-}
+
 .box{
 	text-align: center;
 	padding: 0 25px;
+	padding-top: 200px;
 
 }
 .box-icon{
@@ -196,22 +254,14 @@ img{
 }
 
 .creating-space{
-	position: absolute;
-	top: 2300px;
 	font-family: 'pappins',sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size:44px;
 	line-height: 96px;
 }
-.other-hand{
-	position: absolute;
-	top: 2390px;
-}
-.absolute-testi{
-	position: absolute;
-	top: 2495px;
-}
+
+
 .testi{
 	padding: 0 60px 0 0;
 }
@@ -221,16 +271,14 @@ img{
 	font-weight: bolder;
 	color: #3902a9;
 	line-height: 50px;
+	padding-top: 15px;
 }
 .testi-description{
 	font-family: 'pappins',sans-serif;
 	font-size: 18px;
 	color: #9999;
 }
-.testi-btn{
-	position: absolute;
-	top: 2590px;
-}
+
 .three-image{
 	width: 350px;
 	height: 250px;
@@ -240,12 +288,7 @@ img{
 .image-flex{
 	padding: 0 30px 0 30px;
 }
-.absolute-img{
-	position: absolute;
-	display: flex;
-	top: 3050px;
-	flex-direction:row ;
-}
+
 .image-title{
 	font-family: 'pappins',sans-serif;
 	font-size: 20px;
@@ -277,25 +320,21 @@ img{
 	margin-left: 111px;
 }
 /*button see detaile*/
-.name-absolute{
-	position: absolute;
-	top: 3710px;
-}
+
 .name{
 	font-family: 'pappins',sans-serif;
 	font-size: 25px;
 	font-weight: 500;
 	color: #9999;
 	padding: 0 0 0 112px;
+	line-height:700px;
 
 }
 .text-btm{
-	position: absolute;
-    top:  3910px;
+	padding-top: 300px;
+	
 }
 .text-border{
-	position: absolute;
-	top: 4000px;
 	border:solid ;
 	background-color: #F3F3F3;
 	border-radius: 16px;
@@ -312,8 +351,7 @@ img{
     border-radius: 100%;
 }
 .customer{
-	position: absolute;
-	top: 4145px;
+	
 }
 .gustavo-culhane{
 	font-family: 'pappins',sans-serif;
@@ -329,8 +367,7 @@ img{
     margin-left: 20px;
 }
 .bintang{
-	position: absolute;
-	top: 4175px;
+	
 	margin-left: 80px;
 	line-height: 1px;
 }
@@ -414,12 +451,11 @@ img{
 	background-color: #0000;
 }
 .gt{
-	position: absolute;
-	top: 5820px;
+	
+	
 }
 .our-company{
-	position: absolute;
-	top: 5800px;
+	
 	font-family: 'pappins',sans-serif;
  	font-style: normal;
 	font-weight: 500;
@@ -460,12 +496,6 @@ img{
 .collorado{
 	line-height: 25px ;
 }
-footer	{
-	font-size: 20px;
-    font-family: 'pappins',sans-serif;
-    text-align: center;
-    padding: 30px;
-    background-color: #0000;
-}
+
 
 
