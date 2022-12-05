@@ -5,6 +5,7 @@
 	padding: 0; 
 
 }
+
 .section{
 	min-height: 100vh;
 
@@ -80,8 +81,8 @@ img{
 .two{
 	position: absolute;
 	margin-top: -18px;
-	width: 600px;
-	height: 400px;
+	width: 700px;
+	height: 600px;
 	right: 0;
 	border-radius:20px 0 0 20px;
 }
@@ -90,6 +91,8 @@ img{
 	width: 650px;
 	height: 600px;
 	left: 0;
+	margin-top: 170px;
+	border-radius: 0 20px 20px 0;
 
 }
 
@@ -107,7 +110,17 @@ img{
 	position:absolute;
 	margin-top: 70px;
 	transform: translate(560px);
+}
 
+.schrool3{
+	position:absolute;
+	margin-top: 100px;
+
+}
+.schrool4{
+	position:absolute;
+	transform: translate(555px);
+	margin-top: 540px;
 }
 
 
@@ -117,7 +130,13 @@ img{
 	position: absolute;
 	right: 0;
 	top: 450px;
-
+}
+.putih2{
+	position: absolute;
+    right: 0;
+    z-index: 1;
+    margin-top:300px;
+}
 
 }
 .kuning{
@@ -135,6 +154,13 @@ img{
 .right::after{
 	content: url(image/putih1.jpg);
 
+}
+.creating-bg{
+	position: absolute;
+	left:0;
+}
+.bg-black::before{
+	content:url(image/hitam-atas.jpg);
 }
 
 
@@ -175,6 +201,8 @@ img{
 	padding: 24px;
     border-radius: 50px;
     font-family: 'pappins',sans-serif;
+   
+    position: relative;
 }
 .btn-cta:hover{
 	background-color: #FFFF;
@@ -198,10 +226,11 @@ img{
 }
 .learn-btn{
 	margin-top: 30px;
+	
 
 }
 .testi-btn{
-    margin-top: 30px;
+    margin-top:55px;
 
 }
 /*button*/
@@ -259,11 +288,17 @@ img{
 	font-weight: 500;
 	font-size:44px;
 	line-height: 96px;
+	position:relative;
+}
+.other-hand{
+	padding-top:30px;
 }
 
 
 .testi{
+	position:relative;
 	padding: 0 60px 0 0;
+	padding-top: 30px;
 }
 .testi-title{
 	font-family: 'pappins',sans-serif;
@@ -281,12 +316,12 @@ img{
 
 .three-image{
 	width: 350px;
-	height: 250px;
+	height: 350px;
 	border-radius: 10px;
 
 }
 .image-flex{
-	padding: 0 30px 0 30px;
+	padding: 0 25px 0 25px;
 }
 
 .image-title{
@@ -295,6 +330,7 @@ img{
 	font-weight: 500;
 	color:  #100607;
 	line-height: 42px;
+	padding-top: 10px;
 
 }
 
@@ -307,6 +343,20 @@ img{
 	background-color: #FFB900;
 	color: #eaeaea;
 	border-radius: 50px;
+	
+}
+.detaile-kiri{
+	margin-top:10px;
+	margin-left: 70px;
+
+}
+.detaile-kanan{
+	margin-top:10px;
+	margin-left:130px;
+
+}
+.detaile-bawah{
+	margin-top:10px;
 }
 .btn-detaile:hover{
 	cursor: pointer;
@@ -327,7 +377,7 @@ img{
 	font-weight: 500;
 	color: #9999;
 	padding: 0 0 0 112px;
-	line-height:700px;
+	
 
 }
 .text-btm{
@@ -359,15 +409,18 @@ img{
 	line-height:30px;
 	font-weight: 500;
 	padding: 0 10px;
+	 margin-top: -100px;
+
 }
 .gustavo-img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-left: 20px;
+    margin-top: -100px;
 }
 .bintang{
-	
+	margin-top: -70px;
 	margin-left: 80px;
 	line-height: 1px;
 }
@@ -378,9 +431,7 @@ img{
 	height: 180px;
 	padding: 25px 59px;	
 }
-.relative{
-	position: relative;
-}
+
 
 .bg-color1{
 	background-color :rgba(3,164,193,255);
@@ -400,12 +451,9 @@ img{
 	box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
 }
-.container-relative{
-	width: 1200px;
-	margin: 0 auto;
-	padding: 0; 
-	position: relative;
 
+.offer-all{
+	padding-top: 500px;
 }
 
 .offer-title{
@@ -434,10 +482,10 @@ img{
 .all-icon{
 	width: 30px;
 	height: 30px;
+	margin-top: 10px;
 }
 .all-icons{
-	position: absolute;
-	top: 5910px;
+	
 }
 .bg-bottom{
 	
@@ -447,54 +495,73 @@ img{
 	left: 0px;
 	
 }
-.bg.black{
-	background-color: #0000;
-}
-.gt{
-	
-	
-}
+
+
 .our-company{
 	
 	font-family: 'pappins',sans-serif;
  	font-style: normal;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 22px;
 	color: #ffff;
 	line-height: 40px;
+	padding-top: 90px;
 }
 .our-descrip{
-	font-family: 'pappins',sans-serif;
-	font-size: 12px;
+	font-family: 'nunito',sans-serif;
+	font-size: 16px;
 	color: #ffff;
-	gap: 10px;
-	line-height: 30px;
+	margin-top: 10px;
+	gap: 15px;
+
+	
 }
 .our-lf{
-	margin-left: 210px;
+	margin-left: 50px;
 
 }
 .go-description{
-	font-family: 'pappins',sans-serif;
-	font-size: 12px;
+	font-family: 'nunito',sans-serif;
+	font-size: 14px;
 	color:#eaeaea;
 	line-height: 25px;
 	margin-top: 10px;
 }
 .info{
-	margin-left: 370px;
-	gap: 30px;
+	margin-left: 50px;
+	
+	
 }
 .icn{
-	width: 20px;
-	height: 20px;
+	width: 25px;
+	height: 25px;
 
 }
 .location{
-	margin-top: 10px;
+	margin-top: 17px;
 }
 .collorado{
-	line-height: 25px ;
+	line-height: 30px;
+
+	
+}
+.gt{
+	padding-top:100px;
+	
+}
+.phone{
+	margin-top: 7px;
+
+}
+.email{
+	margin-top: 7px;
+}
+footer{
+	text-align:center;
+	font-family: 'poppins',sans-serif;
+	font-size: 14px;
+	color: #eaeaea;
+	padding:10px;
 }
 
 
